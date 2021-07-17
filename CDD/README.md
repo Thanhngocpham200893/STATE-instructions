@@ -8,7 +8,7 @@
     We seperated the adsorbed systems NO/Cu(111) into two fragments (NO and Cu(111)) 
     where two latter atomic configurations are kept fixed from the total system.
 
-    The CDD calculation is then straightforward with two steps:
+    The CDD calculation is then straightforward with two steps: (1) scf calculation and (2) valance charge density in real space
 
 (1) **Scf calculation to get the wave function**
     We perform scf calculation for three systems, i.e. NO/Cu(111), NO, and Cu(111)
