@@ -11,5 +11,8 @@
     The CDD calculation is then straightforward with two steps:
 
 (1) **Scf calculation to get the wave function**
+    We perform scf calculation for three systems, i.e. NO/Cu(111), NO, and Cu(111)
+    where atomic configuration is kept fixed
+    forccr = 1.00D+03 (for scf) and edelta = 1.00D-10 (more accurate criterion) 
 
 (2) **Valance charge density** 
