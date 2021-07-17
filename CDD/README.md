@@ -37,4 +37,5 @@
     We will obtain total.xsf for total system.
     Similarly, we can get the VDR for two fragments. 
     CDD in VESTA is done by a nice tutorial at http://renqinzhang.weebly.com/uploads/9/6/1/9/9619514/charge_density_difference.pdf
+    Isosurface can be plotted nicely with VESTA (see attached picture)
     
