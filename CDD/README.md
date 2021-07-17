@@ -8,7 +8,7 @@
      We seperated the adsorbed systems NO/Cu(111) into two fragments (NO and Cu(111)) 
      where two latter atomic configurations are kept fixed from the total system.
 
-     The CDD calculation is then straightforward with two steps: (1) scf calculation and (2) valance charge density in real space
+     The CDD calculation is performed with two steps: (1) scf calculation and (2) valance charge density in real space
 
  (1) **Scf calculation to get the wave function**
  
@@ -21,3 +21,6 @@
  (2) **Valance charge density in real space**
      
      After scf step, valance density in real space is obtained by perform second STATE calculation with ICOND = 9
+     The valance density in real space is written in nfchgt_r.data (in STATE code format).
+  
+ (3) **CDD visualization**
