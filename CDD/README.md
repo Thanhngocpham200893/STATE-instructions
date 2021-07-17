@@ -5,7 +5,8 @@
     Charge density difference (CDD) upon the adsorption of NO is defined as
     CDD = charge (NO/Cu111) - charge (NO) - charge (Cu111).
 
-    We seperated the adsorbed systems NO/Cu(111) into two fragments (NO and Cu(111)) where two latter atomic configurations are kept fixed from the total system.
+    We seperated the adsorbed systems NO/Cu(111) into two fragments (NO and Cu(111)) 
+    where two latter atomic configurations are kept fixed from the total system.
 
     The CDD calculation is then straightforward with two steps:
 
