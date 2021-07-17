@@ -15,4 +15,5 @@
     where atomic configuration is kept fixed
     forccr = 1.00D+03 (for scf) and edelta = 1.00D-10 (more accurate criterion) 
 
-(2) **Valance charge density** 
+(2) **Valance charge density in real space** 
+    After scf step, valance density in real space is obtained by perform second STATE calculation with ICOND = 9
