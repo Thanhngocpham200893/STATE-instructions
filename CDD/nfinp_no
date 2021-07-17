@@ -1,0 +1,38 @@
+  1   0   0   0   0   0
+     6.0000 20.0000   3   2  2   : gmax, gmaxp, ktyp, katm, katm2
+  1    0         : num_space_group, type
+Cartesian
+   4.824080195330      8.355551998070      0.000000000000
+  -4.824080195330      8.355551998070      0.000000000000
+   0.000000000000      0.000000000000     60.000000000000 
+    9   9   1    1    1    1  :  K_mesh
+     1    0      : ncord,ninv : iwei,imdtyp,ityp
+  0.004438568902      2.791884069616      4.721584056157   1 1 3
+  0.002686749675      2.792063485164      2.412684998066   1 1 2
+  29.00  0.50     30.00  1  1  0.0  : type,iatomn,alfa,amion,iloc,ivan,zeta1
+   7.00  0.50     30.00  1  1  0.0  : type,i atomn,alfa,amion,iloc,ivan,zeta1
+   8.00  0.50     30.00  1  1  0.0  : type,i atomn,alfa,amion,iloc,ivan,zeta1
+     0 0 0 0 0 : icond 0-md,1-cont.md,2-wave fn,3-charge den.,iconstpw
+     0    1    : ipre, ipri		     
+    200  100    0  86400.00    0 : nmd1,nmd2 ,last_iter,cpumax,ifstop
+     6    1         : SIMPLE=1,BROYD1=2,BROY D2=3,DFP=4,PULAY=5
+     0   30  0.30    : iter_start, KBXMIX,  M IX_ALPHA
+     0.20  0.30  0.20  0.20  0.20      : dti m1,dtim2,dtim3,dtim4,dtim
+   300.00     2     1    1.00D-10      : dti o ,imdalg, iexpl, edelta
+    -0.0020  1.00D+03    0             : wid th,forccr,istress
+optb86b-vdw     1                            : xctype,kspin
+     1.00                    : destm	     
+   102  : nbztyp 0-sf, 1-bk, 2-sc, 3-bcc, 4- fcc, 5-dia, 6-hex
+     4    4    4			     
+     4    4    4			     
+    12         : keg			     
+     1         : nextst(mb)		     
+     0         : 0 random numbers 1: matrix  
+     2         : imsd  1=MSD, 2=Precondition ed
+     0         : evaluate_eko_diff	     
+        0      : npdosao		     
+        0    0.0			     
+&VDW-DF					     
+nqs 20					     
+qcut 10.0d0				     
+&END
