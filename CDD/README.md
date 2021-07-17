@@ -25,9 +25,9 @@
   
  **CDD visualization**
  
-    To see CDD, we use VESTA software, VDR should be converted to some compatible formats (.xsf or .cube .vasp)
+    To see CDD, we use VESTA software and VDR should be converted to some compatible formats (.xsf or .cube .vasp)
     To convert VDR in STATE format to .xsf format, Hamada-sensei wrote a code, i.e. chg2xsf.fep, for this purpose.
-    To copy this code, You can find it in utils directory in state.5.6.6 or simply copy from my directory /home/thanhpn/STATE/src/Analysis/chg2xsf.fep
+    To copy this code, you can find it in utils directory in state.5.6.6 or simply copy from my directory /home/thanhpn/STATE/src/Analysis/chg2xsf.fep
     VDR in .xsf format can be obtained by excecuting chg2xsf.fep
     chg2xsf.fep -i nfinp_scf -c nfchgt_r.data -p total
     Here -i nfinp_scf is the name of state input
@@ -41,11 +41,15 @@
     
 **CDD profile along z direction**
 
-    CDD profile along z direction is a good indicator to see charge transfer from surface to adsorbate 
+    CDD profile along z direction is a good indicator to see charge transfer, 
     along work function difference.
+    
     To obtain CDD profile, we need to get average charge density in xy plane from STATE code. 
     This can be done by grep CHGPRO: nfout_scf
                #z in Bohr #average charge density #Total potential #Electrostatic potential
     CHGPRO:      0.0000      0.2719382313     -0.6020253332      0.0512838242
     CHGPRO:      0.1562      0.2612894534     -0.6030569100      0.0362552707
-    ## the value in coluum #5 i.e electrostatic potential is used to get vacuum level of slab
+    ## the value in coluum #5 i.e electrostatic potential is used to get vacuum level of slab.
+    Therefore, we need to take the second and third collums (z in Bohr and average charge density) for three systems.
+    
+    Please prepare the z and charge density for three systems into three files chg_total.dat, chg_no.dat, and chg_sur.dat
