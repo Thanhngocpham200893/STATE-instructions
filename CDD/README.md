@@ -41,7 +41,8 @@
     
 **CDD profile along z direction**
 
-    CDD profile along z direction is a good indicator to see charge transfer from surface to adsorbate together with work function difference.
+    CDD profile along z direction is a good indicator to see charge transfer from surface to adsorbate 
+    along work function difference.
     To obtain CDD profile, we need to get average charge density in xy plane from STATE code. 
     This can be done by grep CHGPRO: nfout_scf
                #z in Bohr #average charge density #Total potential #Electrostatic potential
