@@ -39,3 +39,12 @@
     CDD in VESTA is done by a nice tutorial at http://renqinzhang.weebly.com/uploads/9/6/1/9/9619514/charge_density_difference.pdf
     Isosurface can be plotted nicely with VESTA (see attached picture)
     
+**CDD profile along z direction**
+
+    CDD profile along z direction is a good indicator to see charge transfer from surface to adsorbate together with work function difference.
+    To obtain CDD profile, we need to get average charge density in xy plane from STATE code. 
+    This can be done by grep CHGPRO: nfout_scf
+               #z in Bohr #average charge density #Total potential #Electrostatic potential
+    CHGPRO:      0.0000      0.2719382313     -0.6020253332      0.0512838242
+    CHGPRO:      0.1562      0.2612894534     -0.6030569100      0.0362552707
+    ## the value in coluum #5 i.e electrostatic potential is used to get vacuum level of slab
