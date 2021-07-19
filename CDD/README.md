@@ -58,3 +58,9 @@
     paste chg_total.dat chg_sur.dat chg_no.dat | gawk '{printf "%.5f %.12f\n", $1, $2-$4-$6}' > CDD.dat
     
 **Plot CDD profile**
+
+    Since we use ESM and periodic boundary condition, the Cu(111) slab is placed at z < 0, and ESM regions are placed at +/- z/2
+    Therefore we need to plot the CDD from -z/2 to z/2
+    CDD profile printted at z of (0, z), so we need to apply PBC to CDD and plot CDD.
+    I make a mathplotlib script to plot such feature.
+   
