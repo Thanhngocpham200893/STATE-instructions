@@ -67,4 +67,10 @@
     source /home/thanhpn/myenv/bin/activate
     To excecute the plot, use this command
     python3 plot.py
-   
+    
+    Comments on results:
+    For the adsorption of NO on metal surfaces, back-donation from metal to NO gas occurs (charge is transfered from metal to NO).
+    From CDD prifile we can see that at the interface of NO/Cu(111), 
+    charge depletion is located at Cu surface (z is around 0),
+    while charge accumulation is at NO sites (z = 2, 4 for N,O).
+    We also see some charge loss for NO, it 
