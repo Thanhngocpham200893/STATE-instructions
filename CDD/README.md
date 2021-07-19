@@ -76,13 +76,22 @@
     We also see some charge loss at N-O bond, it may be due to the bond elongation or the donation of NO to the surface. 
 
 **Work function change**
-
+    
+    The work function change upon the adsorption is proportionaly to the interface dipole moments induced by adsorption,
+    as well as reflects the charge transfer between molecule and surface.
+    Positive value indicates interface dipole moment has negative pole outward the surface, and vice vesa.
+    
     By using ESM, vacuum level and thus work function are accurately estimated from electrostatic profile.
     Work function of NO/Cu(111) is 5.838 eV,
-    where as Cu(111) has work function of 4.894 eV obtained by STATE (4.94 eV in exp https://doi.org/10.1116/1.4934685)
+    whereas Cu(111) has work function of 4.894 eV obtained by STATE (4.94 eV in exp https://doi.org/10.1116/1.4934685).
+    Therefore, work function change upon the NO adsorption is 0.944 eV, indicating negative pole outward the surface,
+    Or charge is transfer from surface to NO.
+    Our calculation result is similar with NO adsorbs on other transition metals (https://doi.org/10.1039/B920857G)
+    
 
 **Interface dipole moment**
-
+    
+    
     In STATE code, dipole moment in z direction is calculated.
     To check the dipole moment in z direction, grep "DPL2:" nfout_scf
     DPL2: mu(Debye)
@@ -97,4 +106,6 @@
     
     delta_mu =  mu(NO/Cu) - mu(NO) - mu(Cu)  =  -0.52448 - 0.12554 - -0.00161 = -0.64841 (D)
     
+    Calculated delta_mu further supports the work function change.
     
+    Further reading: https://doi.org/10.1063/1.2940334
