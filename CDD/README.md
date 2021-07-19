@@ -75,6 +75,11 @@
     while charge accumulation is at NO sites (z = 2, 4 for N,O).
     We also see some charge loss at N-O bond, it may be due to the bond elongation or the donation of NO to the surface. 
 
+**Work function change**
+
+    By using ESM, vacuum level and thus work function are accurately estimated from electrostatic profile.
+    Work function of NO/Cu(111) is 5.838 eV, where as Cu(111) has work function of 
+
 **Interface dipole moment**
 
     In STATE code, dipole moment in z direction is calculated.
