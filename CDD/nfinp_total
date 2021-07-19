@@ -48,3 +48,6 @@ optb86b-vdw     1                            : xctype,kspin
 nqs 20					     
 qcut 10.0d0				     
 &END
+&ESM
+ BOUNDARY_CONDITION BARE
+&END
