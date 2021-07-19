@@ -10,7 +10,7 @@
 
      The CDD calculation is performed with two steps: (1) scf calculation and (2) valance charge density in real space
 
- (1) **Scf calculation to get the wave function**
+ (1) **Scf calculation with ESM to get the wave function**
  
      We perform scf calculation for three systems, i.e. NO/Cu(111), NO, and Cu(111)
      where atomic configuration is kept fixed
