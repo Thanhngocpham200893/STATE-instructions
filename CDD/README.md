@@ -74,3 +74,12 @@
     charge depletion is located at Cu surface (z is around 0),
     while charge accumulation is at NO sites (z = 2, 4 for N,O).
     We also see some charge loss at N-O bond, it may be due to the bond elongation or the donation of NO to the surface. 
+
+**Interface dipole moment**
+
+    In STATE code, dipole moment in z direction is calculated.
+    To check the dipole moment in z direction of structure, grep "DPL2:" nfout_scf
+    DPL2: mu(Debye)
+    DPL2:  -0.52448
+    The sign of value printed indicate the sign of dipole moments
+    Negative (positive) value indicates negative pole outward (inward) the surface.
