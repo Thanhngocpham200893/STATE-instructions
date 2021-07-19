@@ -50,18 +50,17 @@
     CHGPRO:      0.0000      0.2719382313     -0.6020253332      0.0512838242
     CHGPRO:      0.1562      0.2612894534     -0.6030569100      0.0362552707
     ## the value in coluum #5 i.e electrostatic potential is used to get vacuum level of slab.
-    Therefore, we need to take the second and third collums (z in Bohr and average charge density) for three systems.
-    
+   
     Please prepare the z and charge density for three systems into three files chg_total.dat, chg_no.dat, and chg_sur.dat
-    Now, we estimate CDD profile by subtract the charge density of total system from two framents parts.
+    We estimate CDD profile by subtract the charge density of total system from two framents parts.
     This can be done nicely by using this command
     paste chg_total.dat chg_sur.dat chg_no.dat | gawk '{printf "%.5f %.12f\n", $1, $2-$4-$6}' > CDD.dat
     
 **Plot CDD profile**
 
-    Since we use ESM and periodic boundary condition, the Cu(111) slab is placed at z < 0, and ESM regions are placed at +/- z/2
-    Therefore we need to plot the CDD from -z/2 to z/2
-    CDD profile printted at z of (0, z), so we need to apply PBC to CDD and plot CDD.
+    Since we use ESM with ESM regions are placed at +/- z/2  and the Cu(111) slab is placed at z < 0,
+    we need to plot the CDD from -z/2 to z/2
+    CDD profile printed at z of (0, z), so we need to apply PBC to CDD and plot CDD.
     I make a mathplotlib script to plot such feature.
     To use this script, you need to use my python3 environments by using this command.
     source /home/thanhpn/myenv/bin/activate
