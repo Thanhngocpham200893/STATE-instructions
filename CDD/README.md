@@ -78,7 +78,7 @@
 **Interface dipole moment**
 
     In STATE code, dipole moment in z direction is calculated.
-    To check the dipole moment in z direction of structure, grep "DPL2:" nfout_scf
+    To check the dipole moment in z direction, grep "DPL2:" nfout_scf
     DPL2: mu(Debye)
     DPL2:  -0.52448
     The sign of value printed indicate the sign of dipole moments
