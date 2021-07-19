@@ -63,4 +63,8 @@
     Therefore we need to plot the CDD from -z/2 to z/2
     CDD profile printted at z of (0, z), so we need to apply PBC to CDD and plot CDD.
     I make a mathplotlib script to plot such feature.
+    To use this script, you need to use my python3 environments by using this command.
+    source /home/thanhpn/myenv/bin/activate
+    To excecute the plot, use this command
+    python3 plot.py
    
