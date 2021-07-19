@@ -53,3 +53,6 @@
     Therefore, we need to take the second and third collums (z in Bohr and average charge density) for three systems.
     
     Please prepare the z and charge density for three systems into three files chg_total.dat, chg_no.dat, and chg_sur.dat
+    Now, we estimate CDD profile by subtract the charge density of total system from two framents parts.
+    This can be done nicely by using this code
+    paste chg_total.dat chg_sur.dat chg_no.dat | gawk '{printf "%.5f %.12f\n", $1, $2-$4-$6}' > CDD.dat
