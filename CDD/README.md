@@ -83,3 +83,12 @@
     DPL2:  -0.52448
     The sign of value printed indicate the sign of dipole moments
     Negative (positive) value indicates negative pole outward (inward) the surface.
+   
+    We divided surface dipole moment of NO/Cu(111) into three different part.
+    mu(NO/Cu) = mu(NO) + mu(Cu) + delta_mu,
+    where mu(NO), and mu(Cu) is dipole moment of NO and Cu surface at ther adsorbed geometries (from CDD calculation)
+    delta_mu is dipole moment arised from electronic interaction between No and surface
+    
+    delta_mu =  mu(NO/Cu) - mu(NO) - mu(Cu)  =  -0.52448 - 0.12554 - -0.00161 = -0.64841 (D)
+    
+    
