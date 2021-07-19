@@ -78,7 +78,7 @@
 **Work function change**
 
     By using ESM, vacuum level and thus work function are accurately estimated from electrostatic profile.
-    Work function of NO/Cu(111) is 5.838 eV, where as Cu(111) has work function of 
+    Work function of NO/Cu(111) is 5.838 eV, where as Cu(111) has work function of 4.894 eV 
 
 **Interface dipole moment**
 
