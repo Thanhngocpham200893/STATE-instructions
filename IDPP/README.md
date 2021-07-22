@@ -6,6 +6,12 @@ where bond lengths are employed to interpolate the initial images rather than si
 
 This example provides how to use IDPP to generate an initial path for STATE code.
 
+**(1) Make initial path by IDPP.**
+
+First prepare initial and final images in .xsf file, then execute the neb.py to get all images in xyz file
+
+
+
 Reference:
 
 [1] J. Chem. Phys. **140**, 214106 (2014).
