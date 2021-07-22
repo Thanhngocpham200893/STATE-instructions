@@ -1,3 +1,7 @@
+"""
+Make intial path using IDPP method.
+Coordinates of each image is written at "image#.xyz"
+"""
 from ase import io
 from ase.neb import NEB
 from ase.calculators.emt import EMT
