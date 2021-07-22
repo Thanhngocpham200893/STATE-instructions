@@ -1,5 +1,5 @@
 
-Image Dependent Pair Potential (IDPP) for improved interpolation of initial NEB path.
+**Image Dependent Pair Potential (IDPP) for improved interpolation of initial NEB path**
 
 IDPP provide an excellent initial path interpolation for NEB,
 where bond lengths are employed to interpolate the initial images rather than simple linear interpolation.
