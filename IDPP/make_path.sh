@@ -16,7 +16,7 @@ cat ../nfinp_ini > nfinp
 python3 xyz2nfinp.py old.xyz > cps.dat
 paste cps.dat index.txt >> nfinp
 cat ../nfinp_end >> nfinp
-python3 state2nudged_2.py nfinp > nudged_2 
+python3 state2nudged_2.py nfinp 0.02
 cp nfinp  nfinp_1
 state2xyz.py nfinp_1 > nfinp_1.xyz
 
