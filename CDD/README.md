@@ -85,7 +85,7 @@
     whereas Cu(111) has work function of 4.894 eV obtained by STATE (4.94 eV in exp https://doi.org/10.1116/1.4934685).
     Therefore, work function change upon the NO adsorption is 0.944 eV, indicating negative pole outward the surface,
     Or charge is transfer from surface to NO.
-    Our calculation result is similar with NO adsorbs on other transition metals (https://doi.org/10.1039/B920857G)
+    Our calculation result is consistent with NO adsorbs on other transition metals (https://doi.org/10.1039/B920857G)
     
 
 **Interface dipole moment**
@@ -101,7 +101,7 @@
     We divided surface dipole moment of NO/Cu(111) into three different part.
     mu(NO/Cu) = mu(NO) + mu(Cu) + delta_mu,
     where mu(NO), and mu(Cu) is dipole moment of NO and Cu surface at ther adsorbed geometries (from CDD calculation)
-    delta_mu is dipole moment arised from electronic interaction between No and surface
+    delta_mu is dipole moment arised from electronic interaction between NO and surface
     
     delta_mu =  mu(NO/Cu) - mu(NO) - mu(Cu)  =  -0.52448 - 0.12554 - -0.00161 = -0.64841 (D)
     
