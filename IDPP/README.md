@@ -8,7 +8,9 @@ This example provides how to use IDPP to generate an initial path for STATE code
 
 **(1) Make initial path by IDPP.**
 
-First prepare initial and final images in .xsf file, then execute the neb.py to get all images in xyz file
+First prepare initial and final images in .xsf file, then execute the neb.py to get all images in xyz file.
+
+    python3 neb.py
 
 
 
