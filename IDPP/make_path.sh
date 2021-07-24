@@ -14,7 +14,7 @@ cp ../state2nudged_2.py .
 
 cat ../nfinp_ini > nfinp
 python3 xyz2nfinp.py old.xyz > cps.dat
-paste cps.dat index.txt >> nfinp
+paste cps.dat index.txt | gawk 'NR==1,NR==14' >> nfinp
 cat ../nfinp_end >> nfinp
 python3 state2nudged_2.py nfinp 0.02
 cp nfinp  nfinp_1
