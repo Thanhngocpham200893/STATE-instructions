@@ -13,6 +13,10 @@ First prepare initial and final images in .xsf file, then execute the neb.py to 
     python3 neb.py
 
 
+In STATE code, NEB calculation for each intermediate image is run in different folder. 
+Therefore, we need to prepare the nfinp in n$i directory by make_path.sh
+
+    sh make_path.sh
 
 Reference:
 
