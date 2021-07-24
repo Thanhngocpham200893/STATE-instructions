@@ -1,3 +1,4 @@
+
 """
 Read the xyz file  and write coordinate in Bohr 
 Usage: python3 xyz2nfinp.py  #.xyz > nfinp
