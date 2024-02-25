@@ -1,0 +1,45 @@
+   1   0   0   0   0   0
+     6.0000 20.0000   2   10  10   : gmax, gmaxp, ktyp, katm, katm2
+  1    0         : num_space_group, type
+Cartesian
+   2.412040097670      4.177775999030      0.000000000000
+  -2.412040097670      4.177775999030      0.000000000000
+   0.000000000000      0.000000000000     60.000000000000    
+   18   18    1    1    1    1  :  K_mesh
+     1    0      : ncord,ninv : iwei,imdtyp,ityp
+     -0.000091392026      0.002061412225     3.115784471583      1     1     2
+     -0.000091392026      0.002061412225     -0.115784471583     1     1     1
+      2.411907535873      1.391177987797     -4.011843081759     1     1     1
+      2.411949361100     -1.392119124662     -7.912732286261     1     1     1
+     -0.000013050430      0.004251902312    -11.830418591299     1     1     1
+      2.412002415238      1.391996708361    -15.759219201061     1     1     1
+      2.412027408849     -1.397035425479    -19.700408557164     1     1     1
+      0.000001643256      0.000084323759    -23.644734295576     1     1     1
+      2.412040097700      1.392591999700    -27.571914899200     1     0     1
+      2.412040097700     -1.392591999700    -31.510759884800     1     0     1
+  29.00  0.50     30.00  1  1  0.0  : type,iatomn,alfa,amion,iloc,ivan,zeta1
+   6.00  0.50     30.00  1  1  0.0  : type,iatomn,alfa,amion,iloc,ivan,zeta1
+1 0 0 0 0 : icond 0-md,1-cont.md,2-wave fn,3-charge den.,iconstpw 
+     0    1    : ipre, ipri		     
+200   50    0  864000.00    0 : nmd1,nmd2,last_iter,cpumax,ifstop
+6    1         : SIMPLE=1,BROYD1=2,BROYD2=3,DFP=4,PULAY=5
+     0   30 0.60    : iter_start, KBXMIX,  M IX_ALPHA
+     0.20  0.30  0.20  0.20  0.20      : dti m1,dtim2,dtim3,dtim4,dtim
+100.00     2     1    2.00D-09      : dti o ,imdalg, iexpl, edelta
+    -0.0020  1.00D+03    0             : wid th,forccr,istress
+optb86b-vdw     2                            : xctype,kspin
+     1.00                    : destm	     
+   102  : nbztyp 0-sf, 1-bk, 2-sc, 3-bcc, 4- fcc, 5-dia, 6-hex
+     4    4    4			     
+     4    4    4			     
+    80         : keg			     
+     1         : nextst(mb)		     
+     0         : 0 random numbers 1: matrix  
+     2         : imsd  1=MSD, 2=Precondition ed
+     0         : evaluate_eko_diff	     
+        0      : npdosao		     
+        0    0.0			     
+&VDW-DF					     
+nqs 20					     
+qcut 10.0d0				     
+&END
