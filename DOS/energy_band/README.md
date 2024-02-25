@@ -16,3 +16,7 @@ Then, use plot_band.py with the command .<br />
 **python3 plot_band.py band_up.data**
 .<br /> to get energy band in band.png
 
+
+**Second step is to get energy band structure projected onto adsorbate layer **
+
+This can be achived by performed k-resolved DOS with a single layer from middle of C and topmost Cu (1.5 Bohr) to vacuum level (20 Bohr)
