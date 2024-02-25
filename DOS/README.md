@@ -30,5 +30,6 @@ second one corresponds to the energy range,
 
 third one corresponds to the DOS,
 
+**Excecute python3 code plot_layer.py to plot**
 
 
