@@ -9,8 +9,10 @@ Here I focus on spin polarization calculation .<br />
 (4) After finishing calculations, energy.data is generated..<br />
 Then, we use energy2band program by Hamada-sensei to get band.data to plot in gnuplot.<br />
 However, spin up and down are not seperated.<br />
-Hence, we use split_band.py with the command
-python3 split_band.py.<br />
+Hence, we use split_band.py with the command.<br />
+**python3 split_band.py**.<br />
 to split band.data to band_up.data and band_dw.data.<br />
-Then, use plot_band.py with python3 plot_band.py 
+Then, use plot_band.py with the command .<br />
+**python3 plot_band.py band_up.data**
+.<br /> to get energy band in band.png
 
