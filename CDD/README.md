@@ -13,7 +13,9 @@
  (1) **Scf calculation with ESM to get the wave function**
  
      We perform scf calculation for three systems, i.e. NO/Cu(111), NO, and Cu(111)
-     where atomic configuration is kept fixed
+     where atomic configuration is kept fixed.
+
+     One should use PE2 boundary condition (recommended by Morikawa-sensei).
      
      forccr = 1.00D+03 (for scf) and edelta = 1.00D-10 (more accurate criterion) 
      See ./nfinp_total ./nfinp_no ./nfinp_sur
